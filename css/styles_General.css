@@ -1,0 +1,121 @@
+body {
+
+    display: grid;
+
+    grid-template-columns: auto;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0px;
+
+    
+}
+
+h1,h2 {
+
+    text-align: center;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 10px;
+    background-color: rgb(241, 227, 224);
+
+    /*width height should be in it's own lane, different for each*/
+  }
+
+nav {
+ 
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 75px;  /*can we make the nav have a different top margin depending on the height of the header, relative proprties difficult with css
+    we do have enough space now, the nav is roaing for the mobile nav*/
+    background: var(--color-header-footer);
+    z-index: 1000;
+    right: 8px;
+    
+
+
+}
+
+a {
+
+  text-decoration: none;
+  text-underline-offset: 8px;
+  color: black;
+  
+}
+
+nav ul {
+
+  padding: 0px;
+  background-color: rgb(253, 211, 211);
+  border-radius: 5%;
+ 
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+li.active {
+
+  background-color: rgb(240, 201, 183);
+  border-radius: 5%;
+}
+
+
+
+.active {
+
+  text-decoration: underline;
+ 
+
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.container2 {
+  margin: 0; 
+  width: 100%;
+}
+
+#container {
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 4%;
+  
+ 
+}
+
+footer {
+
+  background-color: rgb(250, 219, 219);
+  text-align: center;
+  padding: 30px;
+  margin-top: 100px;
+}
+/*
+
+styles.css body::after
+body {
+  font-family: var(--text-paragraph), Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}*/
+
+
+/*we have display grid for the style.css body, 
+then we have display flex align items center for  the style.css header*/

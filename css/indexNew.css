@@ -1,0 +1,138 @@
+
+.navIMG {
+
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
+
+
+.container1 {
+display: grid;
+
+    grid-template-areas:
+               " a a a "
+               " a a a "
+            
+               " b b b "
+               " c c c "
+               " d d d " 
+               " d d d " 
+               " e e e " ;
+               
+
+           
+               width: 100%;
+               min-height: 100vh; /*we ensure a full display for our landing page, we can use grid template areas
+               to sort all of our pages, it gives a layout and keeps the page utilised wiht it's assignment of layouts, we use grid,
+               css grid, grid placements, different areas spanning colimns and rows, we repeat the name in all of the cells we would like it to cover,
+               an area is created by repeating the name of the element we want to span over a certain area in the grid
+               we place items in a layout naming it with the grid.area property, we place an element into an area of the grid that we decide the name for, 
+               then we assign grid area to our element and call that grid area a specific name, we can make all of our items appear in relation to each other inside a
+               grdi, inside a grid we integrate into our page, so that all the  elements are aware of each other and the page is interwined with, so
+               we extract all automati9cally from thee page , uusing grid, the grid area property allows us to create space ina grid 
+               and have things appear in relation to each other, it is very neat, and creates for readable code with an appropriate mesh of elements */
+
+              
+}
+
+.container2 {
+
+   
+    grid-area: a;
+
+background-image: url(../Images/berlin-1079616_640.jpg) ;
+
+
+background-size: cover;
+background-position: center;
+
+background-color: rgb(226, 243, 210);
+
+
+background-position: 50% 0;
+
+}
+
+h1.conscious {
+
+    margin: 0px;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+ 
+  
+    font-family: 'Kumbh Sans', sans-serif;
+
+    font-family: 'Lexend', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Prompt', sans-serif;
+
+    font-family: 'PT Sans Caption', sans-serif;
+
+    font-family: 'Sora', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container3 {
+    margin: 10px;
+    grid-area: b;
+
+
+background-color: rgb(202, 202, 184);
+
+
+}
+
+.container4 {
+    margin: 10px;
+    
+    grid-area: c;
+
+
+background-color: rgb(236, 207, 183);
+}
+
+.container5 {
+    margin: 10px;
+    
+    grid-area: d;
+
+
+    background-color: rgb(214, 238, 182);}
+
+.container6 {
+    margin: 10px;
+    
+    grid-area: e;
+
+    background-color: rgb(217, 206, 228);
+}
+
+
+h2 {
+
+    font-size: 30px;
+}
+
+h1 {
+    
+    font-size: 9vw;
+    background-color: rgba(255, 255, 255, 0.548);
+    padding: 30px;
+}
+
+#container:hover {
+background-color: rgb(167, 214, 158);
+}
+
+
+/*we create an area that is made by it's container, then that area is assigned to the farmers, that harvest
+the digital soil and create their space with elements to that they are all grown from the same seed that is the container and the document*/

@@ -1,0 +1,80 @@
+
+@media (min-width: 600px) {
+
+
+    nav {
+        display: block;
+        position: static;
+
+    }
+
+    nav li {
+        display: inline-block; /*horizontal nav menu*/   /*display: inline-block; is the differnece from checkbox minimum viewport*/
+
+        padding: 0px;
+        margin: 20px;
+        /*for our small media viepowrt our nav li has display block, that keeps it vertical*/
+    }
+
+    nav ul {
+
+        background-color: rgba(255, 255, 255, 0); 
+    }
+    header label {
+
+        display: none;  /*we now get rid of the checkbox that validate the changing of classes for our nav menu, small nav is display*/
+    }
+
+
+
+.container1 {
+    display: grid;
+    
+        grid-template-areas:
+                   " a a a "
+                   " a a a "
+                   " a a a "
+                   " b b b "
+                   " d c c "
+                   " d c c " 
+                   " e e e " ;
+                   
+    
+                    /*we use percentage as the viewport is only used for minumum height, content often exceeds the viewport and then this must not limit the content, percent functions in relation to the content rather than the viewport*/
+                   min-height: 100vh;
+                   width: 100%;
+                   padding-bottom: 20px ;
+    
+                  
+    }  /*this is for the max web viewport*/
+
+
+    a.active {
+
+        text-decoration: underline;
+        background-color: rgb(252, 240, 225);
+        padding: 20px;
+        padding-top: 100%;   /*make the li have a background color on active, it is the entire width of the ul, background li*/
+      }
+
+    
+
+      h1 {
+
+        font-size: 9vw;
+        background-color: rgba(255, 255, 255, 0.548);
+        padding: 30px;
+        
+      }
+      
+      h2 {
+      
+       font-size: 5vw;
+        
+      
+      
+      
+      }
+      
+   
+}
