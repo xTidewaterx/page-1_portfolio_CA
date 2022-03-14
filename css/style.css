@@ -850,4 +850,8 @@ display: flex;
 margin: 0 auto;
 }
 
+.cushion {
+height: 400px;
+width: 40vw;}
+
 .buttonClass {}
