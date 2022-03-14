@@ -188,6 +188,9 @@ vertical-align:top;
     .dropdown {
       display: none;
     }
+    
+    .aboutUsColumn {
+    column-count: 2}
 
   }
 
