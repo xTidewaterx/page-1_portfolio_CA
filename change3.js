@@ -7,7 +7,7 @@ const showMoreButtonClass = document.querySelector(".buttonClass");
 
 function showMoreButton() {
 
-    showMore.style.height = "auto";
+    showMore.style.height = "600px";
    showMoreButtonClass.style.display = "none";
 
 
